@@ -1,5 +1,5 @@
-# Entwicklung der interaktiven Anwendung mittels OpenAI Dall E 2
-Die folgenden Seiten beinhalten die Dokumentation zum Erstellen einer interaktiven Anwendung des ausgewählten KI-Modells Dall E 2.
+# Entwicklung der interaktiven Anwendung mittels OpenAI Dall-E 2
+Die folgenden Seiten beinhalten die Dokumentation zum Erstellen einer interaktiven Anwendung des ausgewählten KI-Modells Dall-E 2.
 
 Um die Verbindung zu der API von Open AI zu testen, wird zunächst an zwei einfachen Beispielen der Workflow erklärt.
 
@@ -89,9 +89,9 @@ Nun wird über die Postman-Software die API Anfrage dokumentiert. Dazu wird eine
 ```
 Aus der JASON-Antwort ist die API-Funktionalität ersichtlich.
 
-## Beispielcode 2 Bildgenerierung Modell Dall E 2
+## Beispielcode 2 Bildgenerierung Modell Dall-E 2
 
-Dies ist ein Beispiel die API von DALL-E anzusprechen. Das Modell wird verwendet um ein Bild zu generieren.
+Dies ist ein Beispiel die API von DALL-E 2 anzusprechen. Das Modell wird verwendet um ein Bild zu generieren.
 
 ```java script
 // Routen definieren
@@ -120,7 +120,7 @@ app.post('/', async (req, res) => {                                             
 });
 ```
 
-Im Vergleich zu Beispielcode 1 wir hier nun die Funktion openai.createImage verwendet und die Parameter "Promt", "n= Anzahl" und "size" verwendet. Die URL des entstandenen Codes erhält man durch den Aufruf response.data.data[0].url.
+Im Vergleich zu Beispielcode 1 wird hier nun die Funktion openai.createImage verwendet und die Parameter "Promt", "n= Anzahl" und "size" verwendet. Die URL des entstandenen Codes erhält man durch den Aufruf response.data.data[0].url.
 
 ### Beispielcode 2 Ausführen
 
@@ -140,7 +140,7 @@ Nun wird über die Postman-Software die API Anfrage dokumentiert. Dazu wird eine
 ```
 Aus der JASON-Antwort die API-Funktionalität ersichtlich und der URL Code kann aufgerufen werden, um das Bild zu sehen.
 
-## Bildgenerator Web-Anwendung mittels Dall E
+## Bildgenerator Web-Anwendung mittels Dall-E
 
 Das ist der HTML-Code für eine einfache Web-Anwendung, die es dem Benutzer ermöglicht, eine Bildbeschreibung einzugeben und ein Bild mit Hilfe des KI-Modells Dall-E 2 zu generieren. 
 
