@@ -2,6 +2,8 @@
 
 Es wurde ein weiterer Code auf dem Weg zur fertigen Anwendung zu Übungszwecken geschrieben. Dieser Code erlaubt es einem "flachem" 360 Grad Panorama, ohne Web-GL-Render, mit einer zuvor festgelegten Maske in einer Webanwendung über die API von Dall-E 2 zu bearbeiten.
 
+Beispielbilder zum Ausprobieren sind im Ordner /Abgabe/3_Code_Bildinpainting_mit_festgelegter_Maske_Dorbath/uploads/image-1687525425989.png.
+
 ## HTML-EJS-Seite (index.ejs): 
 Dies ist die Hauptseite der Anwendung und enthält die Benutzeroberfläche. Es gibt einen Abschnitt zum Hochladen eines Bildes per Drag & Drop und ein Eingabefeld für Benutzerbefehle. Das hochgeladene Bild wird im "imageContainer" angezeigt, und es gibt einen "Ausführen"-Button, um die Manipulation des Bildes zu starten.
 
